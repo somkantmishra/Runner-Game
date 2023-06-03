@@ -135,7 +135,7 @@ h.addEventListener("click", () => {
   hs1.style.backgroundColor = "white";
   out = 0;
   cs = 0;
-  speed = 4;
+  speed = 2;
   t = 100;
   chob();
 })
