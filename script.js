@@ -18,6 +18,7 @@ function ch(d)
   c *= mul;
   ll = c.toString() + "px";
   l = ll;
+  p.style.left = l;
 }
 
 function move(a)
@@ -29,7 +30,6 @@ function move(a)
     case "ArrowLeft": ch(-1);
     break;
   }
-  p.style.left = l;
 }
 
 document.addEventListener("keydown",
