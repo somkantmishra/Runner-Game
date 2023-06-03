@@ -1,0 +1,80 @@
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(110, 235, 129);
+  margin: 0;
+  padding: 0;
+}
+
+.man{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+  position: absolute;
+  left: 100px;
+  top: 450px;
+  z-index: 1;
+}
+
+.ob{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  z-index: 1;
+}
+
+.tl{
+  position: absolute;
+  top: 240px;
+  font-size: 20px;
+  font-style: italic;
+  color: rgb(102, 218, 119);
+  font-variant: small-caps;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 100px;
+  z-index: 1;
+}
+
+.score{
+  font-size: 10px;
+  height: 100px;
+}
+
+.game{
+  position: absolute;
+  top: 120px;
+  font-size: 20px;
+  background-color: rgb(55, 174, 25);
+  width: 100px;
+  height: 400px;
+}
+
+.c0{
+  position: absolute;
+  left: 0px;
+}
+
+.c1{
+  position: absolute;
+  left: 100px;
+}
+
+.c2{
+  position: absolute;
+  left: 200px;
+}
+
+.r0{
+  position: absolute;
+  top: 100px;
+}
+
+.r1{
+  position: absolute;
+  top: 200px;
+}
+
+.r2{
+  position: absolute;
+  top: 300px;
+}
